@@ -15,3 +15,12 @@ This Python code creates a chatbot with a user responses dictionary, which conta
 TASK-3_Basic_Chatbot_Output:
 ![Screenshot (69)](https://github.com/Charansaiponugoti/CodeAlpha_Python_Programming/assets/160638909/f27cbd06-52ba-4307-95d9-8305c174c6ad)
 
+
+TASK-4_Task_Automation_With_Python_Scripts:
+
+This Python script organizes files from a source folder into subfolders based on their file extensions and moves them to a destination folder. It uses the shutil module for file operations and the Path class from the pathlib module for handling file paths. The function takes two arguments: source_folder (directory containing files) and destination_folder (directory where the organized files will be moved). It creates the destination folder if it doesn't already exist and gets a list of files in the source folder using Path(source_folder).glob("*"). The script iterates through each file in the source folder, checks if it's a regular file, extracts the file extension, creates a subfolder in the destination folder based on the file extension, and moves the file to the corresponding subfolder using file_path.rename(ext_folder / file_path.name). The script prints a success message after organizing the files.
+
+TASK-4_Task_Automation_With_Python_Scripts_Output:
+![Screenshot (70)](https://github.com/Charansaiponugoti/CodeAlpha_Python_Programming/assets/160638909/6a64c281-1e3f-45be-bdc3-a309d85182bc)
+
+
