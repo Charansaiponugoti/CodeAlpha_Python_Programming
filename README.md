@@ -1,6 +1,7 @@
 Task ouput(images) and description given below:
 
 TASK-1_Hangaman_Game:
+
 Word Selection: The choose_word() function randomly selects a word from a predefined list.
 Display Word: The display_word(word, guessed_letters) function creates a visual representation of the word being guessed, showing guessed letters and placeholders for unguessed letters.
 Main Game Loop: The hangman() function serves as the core of the game, initializing variables and controlling the game flow.
